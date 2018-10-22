@@ -1,8 +1,8 @@
-(module CR-1616_F2N (layer F.Cu) (tedit 5A125D5B)
-  (fp_text reference REF** (at 0 0.5) (layer  F.SilkS)
+(module MOD:CR-1616_F2N (layer F.Cu) (tedit 5BCE04CC)
+  (fp_text reference BT1 (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value CR-1616_F2N (at 0 -0.5) (layer F.Fab)
+  (fp_text value CR2025 (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 2.5 10) (end 10.5 12.75) (angle 322.0591844) (layer Edge.Cuts) (width 0.15))
@@ -13,6 +13,9 @@
   (fp_line (start 13.5 12.25) (end 13.5 7.75) (layer Edge.Cuts) (width 0.15))
   (pad 1 smd rect (at -8.25 10) (size 3.5 5) (layers F.Cu F.Mask))
   (pad 2 smd rect (at 15.5 10) (size 3 3) (layers F.Cu F.Mask))
-  (pad 2 smd rect (at 16.25 10) (size 5 10) (layers F.Cu))
-  (pad 1 smd rect (at -8.75 10) (size 5 10) (layers F.Cu))
+  (model "../../../../../home/cameron/Desktop/ELECTRONICS PROJECTS/HARDWARE/BUSINESS CARD/MOD/CR1616.wrl"
+    (at (xyz 0.095 -0.395 -0.065))
+    (scale (xyz 10.3 10.3 10.3))
+    (rotate (xyz 0 0 180))
+  )
 )
